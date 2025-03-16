@@ -39,7 +39,7 @@ const App = () => {
 
   return (
     <div style={{ textAlign: 'center', fontFamily: 'Arial, sans-serif' }}>
-      <h1>Lap Timer</h1>
+      <h1>LAP TiMER</h1>
       <h2>{formatTime(time)}</h2>
       <div>
         <button onClick={startTimer} disabled={isRunning}>Start</button>
