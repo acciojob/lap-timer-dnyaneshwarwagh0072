@@ -42,13 +42,13 @@ const App = () => {
       <h1>LAP TiMER</h1>
       <h2>{formatTime(time)}</h2>
       <div>
-        <button onClick={startTimer} disabled={isRunning}>Start</button>
-        <button onClick={stopTimer} disabled={!isRunning}>Stop</button>
-        <button onClick={recordLap} disabled={!isRunning}>Lap</button>
-        <button onClick={resetTimer}>Reset </button>
+        <button onClick={startTimer} disabled={isRunning}>START</button>
+        <button onClick={stopTimer} disabled={!isRunning}>STOP</button>
+        <button onClick={recordLap} disabled={!isRunning}>LAP</button>
+        <button onClick={resetTimer}>RESET</button>
       </div>
-      <h3>Laps</h3>
-      
+      <h3>LAPS</h3>
+
       <ul>
         {laps.map((lap, index) => (
           <li key={index}>{`Lap ${index + 1}: ${formatTime(lap)}`}</li>
