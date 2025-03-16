@@ -45,7 +45,7 @@ const App = () => {
         <button onClick={startTimer} disabled={isRunning}>Start</button>
         <button onClick={stopTimer} disabled={!isRunning}>Stop</button>
         <button onClick={recordLap} disabled={!isRunning}>Lap</button>
-        <button onClick={resetTimer}>Reset</button>
+        <button onClick={resetTimer}>Reset </button>
       </div>
       <h3>Laps</h3>
       <ul>
