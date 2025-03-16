@@ -48,6 +48,7 @@ const App = () => {
         <button onClick={resetTimer}>Reset </button>
       </div>
       <h3>Laps</h3>
+      
       <ul>
         {laps.map((lap, index) => (
           <li key={index}>{`Lap ${index + 1}: ${formatTime(lap)}`}</li>
